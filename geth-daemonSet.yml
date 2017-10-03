@@ -18,6 +18,8 @@ spec:
       - name: geth
         image: asia.gcr.io/sentinel-kube/sentinel-go-client
         ports:
+        - containerPort: 30399
+          hostPort: 30399
         - containerPort: 8545
           hostPort: 8545
         - containerPort: 30303
