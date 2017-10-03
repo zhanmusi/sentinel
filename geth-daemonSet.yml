@@ -24,12 +24,12 @@ spec:
           hostPort: 30303
         args:
         - "--datadir=/var/geth"
-        - "--networkid=1314"
+        - "--networkid=78432893"
         - "--rpc"
         - "--rpcaddr=0.0.0.0"
         - "--rpcapi=admin,db,eth,debug,miner,net,shh,txpool,personal,web3"
         - "--rpccorsdomain=*"
-        - "--verbosity=6"
+        - "--verbosity=5"
         resources:
           requests:
             cpu: 400m
